@@ -1,0 +1,11 @@
+account=["张三","李四","王五"]
+print(account)
+print("请输入你要找第几位")
+print(account[int(input())-1])
+print("想修改第几位")
+a=int(input())-1
+print("修改成什么")
+account[a]=input()
+print("增加什么")
+account.append(input())
+print(account)
